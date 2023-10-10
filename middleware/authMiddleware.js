@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import Vet from "../models/vet.js";
+import Vet from "../models/Vet.js";
 
 // Check user authentication
 const checkAuth = async (req, res, next) => {
