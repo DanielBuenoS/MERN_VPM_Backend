@@ -2,7 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
-import vetRoutes from "./routes/VetRoutes.js";
+import vetRoutes from "./routes/vetRoutes.js";
 import patientRoutes from "./routes/patientRoutes.js";
 
 const app = express(); // Create the server
