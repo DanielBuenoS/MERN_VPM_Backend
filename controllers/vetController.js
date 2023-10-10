@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Vet from "../models/vet.js";
+import Vet from "../models/Vet.js"
 import generateJWT from "../helpers/generateJWT.js";
 import generateId from "../helpers/generateId.js";
 import signUpEmail from "../helpers/signUpEmail.js";
