@@ -15,6 +15,14 @@ const signUpEmail = async (data) => {
         }
       });
 
+      transporter.verify(function (error, success) {
+        if (error) {
+          console.log(error);
+        } else {
+          console.log("Server is ready to take our messages");
+        }
+      });
+
     const {email, name, token} = data
 
     // Send email
